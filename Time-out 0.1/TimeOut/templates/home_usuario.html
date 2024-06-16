@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+  <div id='logout'>
+    <p>{{usuario.username}}
+    <button onclick="location.href='/perfil'">Meu perfil</button>
+    <button onclick="location.href='/logout'">Sair</button>
+    </p>
+  </div>
+  <div>
+    <p>Colocar informações aqui</p>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+  <div class='form'>
+  {% csrf_token %}
+  {% for field in form%}
+    <div class='campos_form'>
+      {{ field.errors }}
+      <p>{{ field.label_tag}} {{field}}</p>   
+    </div>
+  {% endfor %}
+  <div class='btn_form'>  
+    <button type="submit">Cadastrar</button>
+    <button onclick="location.href='/'">Voltar</button>
+  </div> 
+    
+{% endblock %}
+

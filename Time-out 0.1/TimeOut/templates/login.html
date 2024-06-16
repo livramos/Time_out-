@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+<link href="{% static 'login.css' %}" rel="stylesheet" type="text/css">
+{% block conteudo %}
+
+  {% csrf_token %}
+  {% for field in form%}
+    <div class='campos_form'>
+      <p>{{ field.label_tag}} {{field}}</p>   
+    </div>
+  {% endfor %}
+  <div class='btn_form'>
+    <button type="submit">Entrar</button>
+    <button onclick="location.href='/'">Voltar</button>
+    <p><a href='/cadastro'>Não possui conta?</a></p>
+  </div>
+{% endblock %}
