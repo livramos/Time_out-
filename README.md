@@ -4,5 +4,7 @@ linguagens usadas:
 - CSS
 - HTML
 - Phyton 
-- Javascritp 
+- JS
+  
+versão 0.15
 atualizações em breve 
