@@ -1,2 +1,4 @@
 # Time_out-
-Site com um proposito de monitoração e controle de tempo online, para q
+Site com um proposito de monitoração e controle de tempo online.
+
+atualizações em breve 
