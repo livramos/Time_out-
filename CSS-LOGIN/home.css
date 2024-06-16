@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,500&display=swap');
+
+.menu_bar{
+  display:flex;
+  justify-content:space-between;
+  align-itens:center;
+  padding:30px 10px;
+  font-family:quicksand;
+  box-sizing:border-box;
+  padding:30px;
+  margin:0 ;
+  background-color:#242422;
+  gap:none;
+  hight:
+
+}
+li,a,p{
+  font-family:quicksand;
+  font-weight:500;
+  font-size:16px;
+  color:#edf0f1;
+  text-decoration: none;
+  
+}
+p{
+  display:flex;
+  padding:0px 20px;
+  margin:0; 
+  text-aling:center
+  height: calc(100vh - 100px);
+  
+}
+.select{
+  list-style:none;
+  display:inline-block;
+  padding: 0px 20px;
+}
+.select a{
+  display:inline-block;
+  padding:0px 20px;
+  transition: all 0.3s ease 0s;
+}
+.select a:hover{
+ color: #0088a9;
+}
+.parallax{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-itens:center;
+  height: 100vh;
+}
+.parallax img{
+  position:absolute;
+  top: 0; 
+  left: 0; 
+  width:100%
+  pointer-events: none;
+}
+
+.logo{
+  width: 210px;
+  hight:210px;
+  display:flex;
+}
+.objeto{
+  width:310px;
+  hight:310px;
+  align-itens:center;
+  display:flex;
+}
+#text{
+  font-family:josefin sans;
+  position: absolute;
+  font-size: 5em;
+  color: #333;
+  shadow: 2px 2px 4px rgba(0, 0,0,.2)
+}

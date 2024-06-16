@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+html {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  height: 100%;
+  width: 100%;
+  font-family:quicksand;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-itens:center;
+  min-height:100vh;
+  background:url('imagem/img_2.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+background{
+  
+}
+
+.quadrado{
+  width:420px;
+  heigh:420px;
+  background: transparent;
+  border:2px solid black;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  
+  color: black;
+  position:relative;
+  padding:30px 40px;
+  border-radius: 25px;
+}
+.quadrado h1{
+  font-size:36px;
+  text-align:center;
+}
+.quadrado .input{
+  position:relative; 
+  width:100%;
+  height:50px;
+  margin:30px 0;
+  background: transparent;
+  border-radius: 40px;
+  
+}
+.input input{
+  width:100%;
+  height:100%;
+  background:transparent;
+  border:none;
+  outline: none;
+  border: 2px solid
+  rgba(255, 255, 255,.2);
+  color: #fff;
+  padding:20px 45px 20px 20x;
+  font-size: 16px;
+  
+}
+.input input::placeholder{
+  color: #fff;
+  
+}
+.quadrado .nao_conta{
+  display:flex;
+  justify-content:space-between;
+  font-weight:600;
+  text-decoration: underline;
+  color:black;
+  font-size:14.5px;
+  margin: 20px 0 15px;
+  text-align:center;
+  
+}
+
+.quadrado .bot_form{
+  width:100%;
+  height:45px;
+  background: #fff;
+  color:#333;
+  display:flex;
+  text-align: center;
+  border:none;
+  outline:none;
+  border-radius:40px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  cursor:pointer;
+  font-size:16px;
+  font-weight:600;
+  justify-content: center;
+  position: relative;
+  
+}
+.esqueceu{
+  
+}
